@@ -1,0 +1,154 @@
+* {
+        margin-right: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+
+.header {
+        align-items: center;
+        background-color: #ff0000;
+        display: flex;
+        height: 80px;
+        color: #fff;
+        justify-content: center;}
+
+header p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;}
+        
+footer {
+        justify-content: center;
+        background-color: #ff0000;
+        color: #fff;
+        padding: 20px;
+        position: relative;
+        padding: 45px;
+        left: 0;
+        bottom: 0;
+        height: 80px;
+        width: 100%;
+        font-size: 12px;}
+              
+.footer1 {
+        max-width: 960px;
+        margin: 0 auto;}
+              
+.footer1 p {
+        color: rgb(255, 255, 255);
+        text-align: center;}
+
+nav {
+        background-color: #ff0000;}
+              
+.menu {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        justify-content: center;
+        position: relative;}
+              
+.menu li {
+        margin-right: 20px;
+        color: #ffffff;}
+              
+.menu li a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 4px;}
+              
+.menu li a:hover {
+        color: #000000;}
+
+.Novidades {
+        margin-top: 20px;
+        text-align: center;}
+
+.Novidades img {
+        margin-top: 10px;
+        width: 70%;}
+
+.Novidades h2 {
+        text-decoration: none;
+        font-size: 25px;}
+
+.Novidades h3 {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 10px;
+        font-size: 18px;}
+
+.Manchester {
+        text-align: center;
+        justify-content: center;
+}
+
+.Manchester img {
+        padding-top: 5%;
+}
+
+
+.Manchester p {
+        text-align: justify;
+        padding-right: 20%;
+        padding-left: 20%;
+}
+
+.Tabela {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+}
+
+.Tabela h4 {
+        font-size: 25px;
+        padding-bottom: 10px;
+}
+
+.Tabela ol {
+        font-size: 20px;
+}
+
+.haaland {
+        justify-content: center;
+        text-align: center;
+}
+.haaland img {
+        padding-top: 5%;
+        width: 60%;
+}
+
+.haaland p {
+        margin-bottom: 10px;
+        text-align: justify;
+        padding-right: 20%;
+        padding-left: 20%;}
+
+
+
+
+@media (max-width: 400px) {
+
+        header p {
+                font-size: 30px;}
+
+        .header {
+                height: 50px;}    
+
+        .menu {
+                font-size: 10px;}
+
+        .Novidades h2 {
+                font-size: 20px;}
+
+        .Novidades h3 {
+                font-size: 12px;}
+
+        .Manchester img {
+                width: 60%;}
+        
+}
+
